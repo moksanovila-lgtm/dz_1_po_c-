@@ -43,7 +43,10 @@ public:
     requires std::is_base_of_v<T, U>
     SharedPtr& operator=(SharedPtr<U>&& other) noexcept;
 
+    explicit operator bool() const { return ptr != nullptr; }
+
     int use_count() const {return ref_count ? *ref_count : 0;}
+    bool unique() const {return use_count() == 1;}
 
     void reset() noexcept;
 };
@@ -53,7 +56,7 @@ public:
 
 
 template <typename T>
-SharedPtr<T>& SharedPtr<T>::operator=(const SharedPtr& other){
+SharedPtr<T>& SharedPtr<T>::operator=(const SharedPtr& other) {
     if(this != &other){
         ReleaseOwnership();
         ptr = other.ptr;
