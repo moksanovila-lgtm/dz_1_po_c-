@@ -1,0 +1,271 @@
+Start testing: Sep 23 00:41 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/5 Testing: test_unique_ptr
+1/5 Test: test_unique_ptr
+Command: "D:/dz_1/build/test_unique_ptr.exe"
+Directory: D:/dz_1/build
+"test_unique_ptr" start time: Sep 23 00:41 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from UniquePtr
+[ RUN      ] UniquePtr.DefaultIsNull
+[       OK ] UniquePtr.DefaultIsNull (0 ms)
+[ RUN      ] UniquePtr.CreateAndDeref
+[       OK ] UniquePtr.CreateAndDeref (0 ms)
+[ RUN      ] UniquePtr.ArrowOperator
+[       OK ] UniquePtr.ArrowOperator (0 ms)
+[ RUN      ] UniquePtr.MoveConstructor
+[       OK ] UniquePtr.MoveConstructor (0 ms)
+[ RUN      ] UniquePtr.MoveAssignment
+[       OK ] UniquePtr.MoveAssignment (0 ms)
+[ RUN      ] UniquePtr.Release
+[       OK ] UniquePtr.Release (0 ms)
+[ RUN      ] UniquePtr.Reset
+[       OK ] UniquePtr.Reset (0 ms)
+[ RUN      ] UniquePtr.SubtypingMoveConstructor
+[       OK ] UniquePtr.SubtypingMoveConstructor (0 ms)
+[ RUN      ] UniquePtr.SubtypingMoveAssignment
+[       OK ] UniquePtr.SubtypingMoveAssignment (0 ms)
+[ RUN      ] UniquePtr.DestructorCalled
+[       OK ] UniquePtr.DestructorCalled (0 ms)
+[----------] 10 tests from UniquePtr (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_unique_ptr" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_unique_ptr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: test_unique_ptr_array
+2/5 Test: test_unique_ptr_array
+Command: "D:/dz_1/build/test_unique_ptr_array.exe"
+Directory: D:/dz_1/build
+"test_unique_ptr_array" start time: Sep 23 00:41 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from UniquePtrArray
+[ RUN      ] UniquePtrArray.DefaultIsNull
+[       OK ] UniquePtrArray.DefaultIsNull (0 ms)
+[ RUN      ] UniquePtrArray.CreateAndIndex
+[       OK ] UniquePtrArray.CreateAndIndex (0 ms)
+[ RUN      ] UniquePtrArray.ModifyElements
+[       OK ] UniquePtrArray.ModifyElements (0 ms)
+[ RUN      ] UniquePtrArray.MoveConstructor
+[       OK ] UniquePtrArray.MoveConstructor (0 ms)
+[ RUN      ] UniquePtrArray.MoveAssignment
+[       OK ] UniquePtrArray.MoveAssignment (0 ms)
+[ RUN      ] UniquePtrArray.Release
+[       OK ] UniquePtrArray.Release (0 ms)
+[ RUN      ] UniquePtrArray.Reset
+[       OK ] UniquePtrArray.Reset (0 ms)
+[ RUN      ] UniquePtrArray.SubtypingMoveConstructor
+[       OK ] UniquePtrArray.SubtypingMoveConstructor (0 ms)
+[ RUN      ] UniquePtrArray.SubtypingMoveAssignment
+[       OK ] UniquePtrArray.SubtypingMoveAssignment (0 ms)
+[ RUN      ] UniquePtrArray.DestructorCalledForEachElement
+[       OK ] UniquePtrArray.DestructorCalledForEachElement (0 ms)
+[----------] 10 tests from UniquePtrArray (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_unique_ptr_array" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_unique_ptr_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: test_shared_ptr
+3/5 Test: test_shared_ptr
+Command: "D:/dz_1/build/test_shared_ptr.exe"
+Directory: D:/dz_1/build
+"test_shared_ptr" start time: Sep 23 00:41 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from SharedPtr
+[ RUN      ] SharedPtr.DefaultIsNull
+[       OK ] SharedPtr.DefaultIsNull (0 ms)
+[ RUN      ] SharedPtr.CreateFromPointer
+[       OK ] SharedPtr.CreateFromPointer (0 ms)
+[ RUN      ] SharedPtr.CopyConstructor
+[       OK ] SharedPtr.CopyConstructor (0 ms)
+[ RUN      ] SharedPtr.CopyAssignment
+[       OK ] SharedPtr.CopyAssignment (0 ms)
+[ RUN      ] SharedPtr.CopyThenReset
+[       OK ] SharedPtr.CopyThenReset (0 ms)
+[ RUN      ] SharedPtr.MoveConstructor
+[       OK ] SharedPtr.MoveConstructor (0 ms)
+[ RUN      ] SharedPtr.MoveAssignment
+[       OK ] SharedPtr.MoveAssignment (0 ms)
+[ RUN      ] SharedPtr.UseCountMultiple
+[       OK ] SharedPtr.UseCountMultiple (0 ms)
+[ RUN      ] SharedPtr.UseCountAfterReset
+[       OK ] SharedPtr.UseCountAfterReset (0 ms)
+[ RUN      ] SharedPtr.ResetShared
+[       OK ] SharedPtr.ResetShared (0 ms)
+[ RUN      ] SharedPtr.SubtypingCopyConstructor
+[       OK ] SharedPtr.SubtypingCopyConstructor (0 ms)
+[ RUN      ] SharedPtr.SubtypingMoveConstructor
+[       OK ] SharedPtr.SubtypingMoveConstructor (0 ms)
+[ RUN      ] SharedPtr.SubtypingCopyAssignment
+[       OK ] SharedPtr.SubtypingCopyAssignment (0 ms)
+[ RUN      ] SharedPtr.SubtypingMoveAssignment
+[       OK ] SharedPtr.SubtypingMoveAssignment (0 ms)
+[ RUN      ] SharedPtr.DestructorCalledWhenCountZero
+[       OK ] SharedPtr.DestructorCalledWhenCountZero (0 ms)
+[ RUN      ] SharedPtr.SelfCopyAssignment
+[       OK ] SharedPtr.SelfCopyAssignment (0 ms)
+[ RUN      ] SharedPtr.SelfMoveAssignment
+[       OK ] SharedPtr.SelfMoveAssignment (0 ms)
+[----------] 17 tests from SharedPtr (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_shared_ptr" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_shared_ptr" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: test_shared_ptr_array
+4/5 Test: test_shared_ptr_array
+Command: "D:/dz_1/build/test_shared_ptr_array.exe"
+Directory: D:/dz_1/build
+"test_shared_ptr_array" start time: Sep 23 00:41 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 17 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 17 tests from SharedPtrArray
+[ RUN      ] SharedPtrArray.DefaultIsNull
+[       OK ] SharedPtrArray.DefaultIsNull (0 ms)
+[ RUN      ] SharedPtrArray.CreateFromPointer
+[       OK ] SharedPtrArray.CreateFromPointer (0 ms)
+[ RUN      ] SharedPtrArray.ModifyElements
+[       OK ] SharedPtrArray.ModifyElements (0 ms)
+[ RUN      ] SharedPtrArray.ConstAccess
+[       OK ] SharedPtrArray.ConstAccess (0 ms)
+[ RUN      ] SharedPtrArray.CopyConstructor
+[       OK ] SharedPtrArray.CopyConstructor (0 ms)
+[ RUN      ] SharedPtrArray.CopyAssignment
+[       OK ] SharedPtrArray.CopyAssignment (0 ms)
+[ RUN      ] SharedPtrArray.CopyThenReset
+[       OK ] SharedPtrArray.CopyThenReset (0 ms)
+[ RUN      ] SharedPtrArray.MoveConstructor
+[       OK ] SharedPtrArray.MoveConstructor (0 ms)
+[ RUN      ] SharedPtrArray.MoveAssignment
+[       OK ] SharedPtrArray.MoveAssignment (0 ms)
+[ RUN      ] SharedPtrArray.UseCountMultiple
+[       OK ] SharedPtrArray.UseCountMultiple (0 ms)
+[ RUN      ] SharedPtrArray.Reset
+[       OK ] SharedPtrArray.Reset (0 ms)
+[ RUN      ] SharedPtrArray.ResetShared
+[       OK ] SharedPtrArray.ResetShared (0 ms)
+[ RUN      ] SharedPtrArray.SubtypingCopyConstructor
+[       OK ] SharedPtrArray.SubtypingCopyConstructor (0 ms)
+[ RUN      ] SharedPtrArray.SubtypingMoveConstructor
+[       OK ] SharedPtrArray.SubtypingMoveConstructor (0 ms)
+[ RUN      ] SharedPtrArray.SubtypingCopyAssignment
+[       OK ] SharedPtrArray.SubtypingCopyAssignment (0 ms)
+[ RUN      ] SharedPtrArray.SubtypingMoveAssignment
+[       OK ] SharedPtrArray.SubtypingMoveAssignment (0 ms)
+[ RUN      ] SharedPtrArray.DestructorCalledForEachElementWhenCountZero
+[       OK ] SharedPtrArray.DestructorCalledForEachElementWhenCountZero (0 ms)
+[----------] 17 tests from SharedPtrArray (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 17 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 17 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_shared_ptr_array" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_shared_ptr_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: test_dynamic_array
+5/5 Test: test_dynamic_array
+Command: "D:/dz_1/build/test_dynamic_array.exe"
+Directory: D:/dz_1/build
+"test_dynamic_array" start time: Sep 23 00:41 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 20 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 20 tests from DynamicArray
+[ RUN      ] DynamicArray.DefaultIsEmpty
+[       OK ] DynamicArray.DefaultIsEmpty (0 ms)
+[ RUN      ] DynamicArray.AppendIncreasesSize
+[       OK ] DynamicArray.AppendIncreasesSize (0 ms)
+[ RUN      ] DynamicArray.AppendAndGet
+[       OK ] DynamicArray.AppendAndGet (0 ms)
+[ RUN      ] DynamicArray.GetModifiesInPlace
+[       OK ] DynamicArray.GetModifiesInPlace (0 ms)
+[ RUN      ] DynamicArray.GetOutOfRange
+[       OK ] DynamicArray.GetOutOfRange (0 ms)
+[ RUN      ] DynamicArray.Prepend
+[       OK ] DynamicArray.Prepend (0 ms)
+[ RUN      ] DynamicArray.InsertAtMiddle
+[       OK ] DynamicArray.InsertAtMiddle (0 ms)
+[ RUN      ] DynamicArray.InsertAtBeginning
+[       OK ] DynamicArray.InsertAtBeginning (0 ms)
+[ RUN      ] DynamicArray.InsertAtEnd
+[       OK ] DynamicArray.InsertAtEnd (0 ms)
+[ RUN      ] DynamicArray.InsertAtOutOfRange
+[       OK ] DynamicArray.InsertAtOutOfRange (0 ms)
+[ RUN      ] DynamicArray.CopyIsIndependent
+[       OK ] DynamicArray.CopyIsIndependent (0 ms)
+[ RUN      ] DynamicArray.CopyOutOfRange
+[       OK ] DynamicArray.CopyOutOfRange (0 ms)
+[ RUN      ] DynamicArray.RemoveAtMiddle
+[       OK ] DynamicArray.RemoveAtMiddle (0 ms)
+[ RUN      ] DynamicArray.RemoveAtBeginning
+[       OK ] DynamicArray.RemoveAtBeginning (0 ms)
+[ RUN      ] DynamicArray.RemoveAtOnlyElement
+[       OK ] DynamicArray.RemoveAtOnlyElement (0 ms)
+[ RUN      ] DynamicArray.RemoveAtOutOfRange
+[       OK ] DynamicArray.RemoveAtOutOfRange (0 ms)
+[ RUN      ] DynamicArray.Clear
+[       OK ] DynamicArray.Clear (0 ms)
+[ RUN      ] DynamicArray.MoveConstructor
+[       OK ] DynamicArray.MoveConstructor (0 ms)
+[ RUN      ] DynamicArray.MoveAssignment
+[       OK ] DynamicArray.MoveAssignment (0 ms)
+[ RUN      ] DynamicArray.DestructorCallsElementDestructors
+[       OK ] DynamicArray.DestructorCallsElementDestructors (0 ms)
+[----------] 20 tests from DynamicArray (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 20 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 20 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"test_dynamic_array" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_dynamic_array" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 23 00:41 RTZ 2 (çèìà)
