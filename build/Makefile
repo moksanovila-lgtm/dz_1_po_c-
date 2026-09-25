@@ -236,6 +236,19 @@ test_dynamic_array/fast:
 .PHONY : test_dynamic_array/fast
 
 #=============================================================================
+# Target rules for targets named bench_all
+
+# Build rule for target.
+bench_all: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 bench_all
+.PHONY : bench_all
+
+# fast build rule for target.
+bench_all/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bench_all.dir\build.make CMakeFiles/bench_all.dir/build
+.PHONY : bench_all/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -286,6 +299,30 @@ gtest_main: cmake_check_build_system
 gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
+
+load_tests/test.obj: load_tests/test.cpp.obj
+.PHONY : load_tests/test.obj
+
+# target to build an object file
+load_tests/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bench_all.dir\build.make CMakeFiles/bench_all.dir/load_tests/test.cpp.obj
+.PHONY : load_tests/test.cpp.obj
+
+load_tests/test.i: load_tests/test.cpp.i
+.PHONY : load_tests/test.i
+
+# target to preprocess a source file
+load_tests/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bench_all.dir\build.make CMakeFiles/bench_all.dir/load_tests/test.cpp.i
+.PHONY : load_tests/test.cpp.i
+
+load_tests/test.s: load_tests/test.cpp.s
+.PHONY : load_tests/test.s
+
+# target to generate assembly for a file
+load_tests/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\bench_all.dir\build.make CMakeFiles/bench_all.dir/load_tests/test.cpp.s
+.PHONY : load_tests/test.cpp.s
 
 tests/test_dynamic_array.obj: tests/test_dynamic_array.cpp.obj
 .PHONY : tests/test_dynamic_array.obj
@@ -420,6 +457,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... test
+	@echo ... bench_all
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
@@ -429,6 +467,9 @@ help:
 	@echo ... test_shared_ptr_array
 	@echo ... test_unique_ptr
 	@echo ... test_unique_ptr_array
+	@echo ... load_tests/test.obj
+	@echo ... load_tests/test.i
+	@echo ... load_tests/test.s
 	@echo ... tests/test_dynamic_array.obj
 	@echo ... tests/test_dynamic_array.i
 	@echo ... tests/test_dynamic_array.s

@@ -1,6 +1,6 @@
-test_unique_ptr 3 0.0058604
-test_unique_ptr_array 3 0.00698267
-test_shared_ptr 3 0.0068404
-test_shared_ptr_array 3 0.0073452
-test_dynamic_array 2 0.0107275
+test_unique_ptr 4 0.00301112
+test_unique_ptr_array 4 0.00295755
+test_shared_ptr 4 0.00296438
+test_shared_ptr_array 4 0.00301535
+test_dynamic_array 3 0.00413667
 ---

@@ -1,10 +1,10 @@
-Start testing: Sep 23 00:41 RTZ 2 (çèìà)
+Start testing: Sep 25 13:38 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/5 Testing: test_unique_ptr
 1/5 Test: test_unique_ptr
 Command: "D:/dz_1/build/test_unique_ptr.exe"
 Directory: D:/dz_1/build
-"test_unique_ptr" start time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_unique_ptr" start time: Sep 25 13:38 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -37,10 +37,10 @@ Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main
 [==========] 10 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 10 tests.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_unique_ptr" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_unique_ptr" end time: Sep 25 13:38 RTZ 2 (çèìà)
 "test_unique_ptr" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -48,7 +48,7 @@ Test Passed.
 2/5 Test: test_unique_ptr_array
 Command: "D:/dz_1/build/test_unique_ptr_array.exe"
 Directory: D:/dz_1/build
-"test_unique_ptr_array" start time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_unique_ptr_array" start time: Sep 25 13:38 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -81,10 +81,10 @@ Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main
 [==========] 10 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 10 tests.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_unique_ptr_array" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_unique_ptr_array" end time: Sep 25 13:38 RTZ 2 (çèìà)
 "test_unique_ptr_array" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -92,7 +92,7 @@ Test Passed.
 3/5 Test: test_shared_ptr
 Command: "D:/dz_1/build/test_shared_ptr.exe"
 Directory: D:/dz_1/build
-"test_shared_ptr" start time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_shared_ptr" start time: Sep 25 13:38 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -139,10 +139,10 @@ Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main
 [==========] 17 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 17 tests.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_shared_ptr" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_shared_ptr" end time: Sep 25 13:38 RTZ 2 (çèìà)
 "test_shared_ptr" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -150,7 +150,7 @@ Test Passed.
 4/5 Test: test_shared_ptr_array
 Command: "D:/dz_1/build/test_shared_ptr_array.exe"
 Directory: D:/dz_1/build
-"test_shared_ptr_array" start time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_shared_ptr_array" start time: Sep 25 13:38 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -197,10 +197,10 @@ Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main
 [==========] 17 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 17 tests.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_shared_ptr_array" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_shared_ptr_array" end time: Sep 25 13:38 RTZ 2 (çèìà)
 "test_shared_ptr_array" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -208,7 +208,7 @@ Test Passed.
 5/5 Test: test_dynamic_array
 Command: "D:/dz_1/build/test_dynamic_array.exe"
 Directory: D:/dz_1/build
-"test_dynamic_array" start time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_dynamic_array" start time: Sep 25 13:38 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -261,11 +261,11 @@ Running main() from D:\dz_1\build\_deps\googletest-src\googletest\src\gtest_main
 [==========] 20 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 20 tests.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"test_dynamic_array" end time: Sep 23 00:41 RTZ 2 (çèìà)
+"test_dynamic_array" end time: Sep 25 13:38 RTZ 2 (çèìà)
 "test_dynamic_array" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 23 00:41 RTZ 2 (çèìà)
+End testing: Sep 25 13:38 RTZ 2 (çèìà)

@@ -3,6 +3,7 @@ D:/dz_1/build/CMakeFiles/test_unique_ptr_array.dir
 D:/dz_1/build/CMakeFiles/test_shared_ptr.dir
 D:/dz_1/build/CMakeFiles/test_shared_ptr_array.dir
 D:/dz_1/build/CMakeFiles/test_dynamic_array.dir
+D:/dz_1/build/CMakeFiles/bench_all.dir
 D:/dz_1/build/CMakeFiles/test.dir
 D:/dz_1/build/CMakeFiles/edit_cache.dir
 D:/dz_1/build/CMakeFiles/rebuild_cache.dir
