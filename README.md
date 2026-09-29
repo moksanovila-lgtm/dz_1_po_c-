@@ -1,5 +1,5 @@
 # Результаты нагрузочных тестов
-
+```
 n, category, implementation, time_us, memory_bytes
 100, UniquePtr, raw, 32, 4
 100, UniquePtr, my, 9, 4
@@ -61,12 +61,12 @@ n, category, implementation, time_us, memory_bytes
 1000000, SharedPtrArray, raw, 107, 4000000
 1000000, SharedPtrArray, my, 65, 4000004
 1000000, SharedPtrArray, stl, 74, 4000024
-
+```
 
 
 
 # Проверка утечек (Valgrind) unique_ptr
-
+```
 ==3007== Command: ./test_unique_ptr
 ==3007==
 Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
@@ -107,12 +107,12 @@ Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
 ==3007==
 ==3007== For lists of detected and suppressed errors, rerun with: -s
 ==3007== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-
+```
 
 
 
 # Проверка утечек (Valgrind) shared_ptr
-
+```
 ==3017== Command: ./test_shared_ptr
 ==3017==
 Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
@@ -167,13 +167,13 @@ Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
 ==3017==
 ==3017== For lists of detected and suppressed errors, rerun with: -s
 ==3017== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-
+```
 
 
 
 
 # Проверка утечек (Valgrind) unique_ptr with array
-
+```
 ==3027== Command: ./test_unique_ptr_array
 ==3027==
 Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
@@ -210,11 +210,11 @@ Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
 ==3027==
 ==3027== For lists of detected and suppressed errors, rerun with: -s
 ==3027== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
-
+```
 
 
 # Проверка утечек (Valgrind) shared_ptr with array
-
+```
 ==3039== Command: ./test_shared_ptr_array
 ==3039==
 Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
@@ -261,3 +261,4 @@ Running main() from /usr/src/googletest/googletest/src/gtest_main.cc
 ==3039==
 ==3039== For lists of detected and suppressed errors, rerun with: -s
 ==3039== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+```
